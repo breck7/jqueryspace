@@ -1,0 +1,19 @@
+<!doctype>
+<html>
+  <head>
+    <title>Test</title>
+    <script type="text/javascript" src="jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="space.js"></script>
+    <link type="text/css" href="test.css" rel="stylesheet" />
+    <script type="text/javascript">
+    $(document).ready(function (){
+      $.space.update()
+    })
+    </script>
+  </head>
+  <body>
+    <div id="block1">Sample Header. This one should extend down onto 2 lines. And we want it to push the other one down. And it should keep going and going. Im not sure if we need the size. That works great.</div>
+    <div id="block3" type="space" origin="#block1" end="#block2" height="10"></div>
+    <div id="block2">Sample Content<div>We want this to shift down if header extends to 2 lines.</div><div><br></div></div>
+  </body>
+</html>

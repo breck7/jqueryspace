@@ -1,0 +1,21 @@
+<!doctype>
+<html>
+  <head>
+    <title>Test</title>
+    <script type="text/javascript" src="jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="space.js"></script>
+    <link type="text/css" href="test.css" rel="stylesheet" />
+    <script type="text/javascript">
+    $(document).ready(function (){
+      $.space.update()
+    })
+    </script>
+  </head>
+  <body>
+    <div id="col1">col 1 with a lot more text</div>
+    <div id="space2" type="space" origin="#col1" end="#col2" width="50" height="20"></div>
+    <div id="col2">col2</div>
+    <div id="col3">col3</div>
+    <div id="space1" type="space" origin="#col2" end="#col3" width="20"></div>
+  </body>
+</html>
