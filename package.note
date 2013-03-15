@@ -1,0 +1,10 @@
+name space
+version 0.1.1
+description Make absolutely positioned sites responsive.
+repository git://github.com/breck7/space
+main space.js
+dependencies
+ jquery >=1.8.3
+keywords absolute
+license MIT
+author Breck Yunits
